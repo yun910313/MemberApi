@@ -1,0 +1,77 @@
+﻿body {
+    margin: 0;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #dad1c4;
+    padding: 0 3rem;
+}
+
+.profile{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.picture {
+    background-image: url("../picture/people.png");
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-img{
+    background-image: url("../picture/banner.jpg");
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    margin: 2rem 3rem;
+    border-radius: 10px;
+}
+
+.stores-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem 3rem;
+    /*text-align: center;*/
+}
+
+.store-card {
+    display: flex;
+    flex-direction: column;
+    /*    margin: 2rem 3rem;*/
+    background-color: aliceblue;
+    /*padding: 1rem;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.store-img{
+    background-image: url(../picture/store.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.store-content {
+    margin: 1rem;
+}
+
+.designer{
+    background-color: bisque;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+    .designer:hover {
+        background-color: chocolate;
+        cursor: pointer;
+        box-shadow: 3px 3px 5px gray;
+    }
+
+ 
